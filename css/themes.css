@@ -5,5 +5,22 @@
   --color-secondary: #3A5683;
   --color-secondary-light: #c9d0e8;
   --color-secondary-dark: #020A35;
+  --colour-accent: #FDDBFF;
+  --color-neutral: #F5F7FF;
 
+  --font-primary: "Ubuntu","Roboto Sans", Arial,sans-serif;
+  --font-secondary:"Lora","Times New Roman",serif;
+
+}
+
+html{
+  font-family: var(--font-primary)
+}
+
+mark{
+  background-color: var(--color-primary-light);
+}
+
+a{
+  color: var(--color-primary-dark)
 }
