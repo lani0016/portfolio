@@ -9,5 +9,27 @@ patternbot:
   colors:
     background: "--color-primary-light"
     accent: "--color-primary-dark"
-  patterns:
-    brand.logos: "--color-neutral"
+    patterns:
+      brand.logos: "--color-neutral"
+      rationales:
+        typefaces.primary: |
+          Ubuntu was chosen because it is a blocky,yet rounded and sleek font that can hold up to any point size.
+        typefaces.secondary: |
+          Laura was chosen for the secondary typeface because it is a thiner, more delicate font that pairs well with Ubuntu and can stand in for tiny details without losing readability.
+        colors.primary: |
+          The primary colour choice for my website symbolizes the warmth of worn and wearthered paper and how great artwork can be enjoyed long after it was created.
+        colors.secondary: |
+          The secondary colours for my website are chosen to contrast the primary colour while vibrating nicely to the eye and continue giving off a more refined look to the webite, giving a comfortable and dependable feel overall.
+        layouts:
+          default: |
+            The default layout should be used on nearly every page, as it contains the header and footer information for the website.
+          detail: |
+            The detail layout should be used exclusively on the gallery details listing page, as this layout is the only layout to include the artwork details ina non-gallary view.
+          collections:
+            products:
+              output: true
+              defaults:
+                - scope:
+                  path: _products
+                  values:
+                    layout: product
