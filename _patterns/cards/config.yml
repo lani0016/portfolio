@@ -1,0 +1,11 @@
+patterns:
+  illustration-card:
+    width: 400
+    description: |
+      The illustration card is used on the home page to display the illustration art pieces.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
