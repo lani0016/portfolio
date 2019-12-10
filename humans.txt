@@ -1,0 +1,29 @@
+# humanstxt.org
+
+# TEAM
+
+Designer & Developer: Kayleigh Laniel <laniel.kayleigh.design@gmail.com>
+Site: http://lanieldesign.art
+GitHub: https://github.com/lani0016
+Location: Ottawa, Canada
+
+---
+
+# THANKS
+
+- Designer & Developer: Thomas J Bradley <hey@thomasjbradley.ca>
+Site: http://thomasjbradley.ca
+GitHub: https://github.com/thomasjbradley
+Twitter: @thomasjbradley
+Location: Ottawa, Canada
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+HTML & CSS with Javascript
+
+## Hosting
+https://hungry-panini-3af6f5.netlify.com/pattern-library/
