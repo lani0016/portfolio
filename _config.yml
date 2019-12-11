@@ -26,10 +26,10 @@ patternbot:
           detail: |
             The detail layout should be used exclusively on the gallery details listing page, as this layout is the only layout to include the artwork details ina non-gallary view.
           collections:
-            products:
+            detail:
               output: true
               defaults:
                 - scope:
-                  path: _products
+                  path: _detail
                   values:
-                    layout: product
+                    layout: detail
