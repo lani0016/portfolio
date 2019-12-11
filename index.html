@@ -18,6 +18,15 @@ layout: gallery
     <li><a href="#main">Skip to main content</a></li>
   </ul>
 
+  <ul class="grid gallery">
+    {% for image in page.images %}
+      {% if forloop.first %}
+        <li class="xs-1 s-1 m-1"><img src="{{ image_path }}" alt="{{ image.title}}"></li>
+      {% else %}
+        <li class="xs-1 s-1 m-1-4"><img src="{{ image_path }}" alt="{{ image.title}}"></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
 
 
 <script type="application/ld+json">
