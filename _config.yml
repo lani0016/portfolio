@@ -4,7 +4,7 @@ theme: jekyll_patternbot
 patternbot:
   title: "Laniel Design"
   description: |
-  A Portfolio website for graphic designer Kayleigh Laniel, detailing her work  with highlighted interests in Illustration and graphics for print.
+    A Portfolio website for graphic designer Kayleigh Laniel, detailing her work  with highlighted interests in Illustration and graphics for print.
   font_url: "https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Ubuntu&display=swap"
   colors:
     background: "--color-primary-light"
@@ -13,25 +13,25 @@ patternbot:
       brand.logos: "--color-neutral"
       rationales:
         typefaces.primary: |
-        Ubuntu was chosen because it is a blocky,yet rounded and sleek font that can hold up to any point size.
+          Ubuntu was chosen because it is a blocky,yet rounded and sleek font that can hold up to any point size.
         typefaces.secondary: |
-        Laura was chosen for the secondary typeface because it is a thiner, more delicate font that pairs well with Ubuntu and can stand in for tiny details without losing readability.
+          Laura was chosen for the secondary typeface because it is a thiner, more delicate font that pairs well with Ubuntu and can stand in for tiny details without losing readability.
         colors.primary: |
-        The primary colour choice for my website symbolizes the warmth of worn and wearthered paper and how great artwork can be enjoyed long after it was created.
+          The primary colour choice for my website symbolizes the warmth of worn and wearthered paper and how great artwork can be enjoyed long after it was created.
         colors.secondary: |
-        The secondary colours for my website are chosen to contrast the primary colour while vibrating nicely to the eye and continue giving off a more refined look to the webite, giving a comfortable and dependable feel overall.
+          The secondary colours for my website are chosen to contrast the primary colour while vibrating nicely to the eye and continue giving off a more refined look to the webite, giving a comfortable and dependable feel overall.
         layouts:
           default: |
-          The default layout should be used on nearly every page, as it contains the header and footer information for the website.
+            The default layout should be used on nearly every page, as it contains the header and footer information for the website.
           detail: |
-          The detail layout should be used exclusively on the gallery details listing page, as this layout is the only layout to include the artwork details ina non-gallary view.
+            The detail layout should be used exclusively on the gallery details listing page, as this layout is the only layout to include the artwork details ina non-gallary view.
           collections:
             markdown:
               output: true
-              detail:
-                output: true
-                defaults:
-                  - scope:
-                    path: _markdown
-                    values:
-                      layout: detail
+            detail:
+              output: true
+              defaults:
+                - scope:
+                  path: _markdown
+                  values:
+                    layout: detail
