@@ -7,9 +7,14 @@ layout: default
 <ul class="grid gallery">
   {% for image in page.images %}
     {% if forloop.first %}
-      <li class="xs-1 s-1 m-1"><img src="{{ image_path }}" alt="{{ image.title}}"></li>
+      <li class="xs-1 s-1 m-1">
+        <img class= "img-flex" src="{{ image.path }}" alt="{{ image.title}}">
+        <p>
+      </li>
     {% else %}
-      <li class="xs-1 s-1 m-1-4"><img src="{{ image_path }}" alt="{{ image.title}}"></li>
+      <li class="xs-1 s-1 m-1-4">
+        <img class= "img-flex" src="{{ image.path }}" alt="{{ image.title}}">
+      </li>
     {% endif %}
   {% endfor %}
 </ul>

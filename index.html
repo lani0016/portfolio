@@ -1,46 +1,71 @@
 ---
 layout: gallery
+images:
+  - path: /images/infographic.png
+    title: infographic
+      desc: |
+      This is an infographic that was created in first year
+      with the aim to inform viewers about the monetary cost
+      of getting sick in today's economy.By keeping the colours
+      muted and more toward a hospital's colour palette, the user
+      gets the impression that the poster is a warning of sorts
+      to inform them of the information it contains.
+
+  - path: /images/t-shirt.jpg
+    title: T-Shirt
+      desc: |
+      This is an Augmented reality enabled graphic that I had created for a product assignment.
+      the aim for this assignment was to create an innovative graphic piece of my choosing
+      so this graphic based on a favourite song was created. I was able to have the graphic work
+      to play music via the ARTIVIVE app for general print use.
+
+  - path: /images/UN-Poster.png
+    title: UN-Poster
+      desc: |
+      This is a minimalist poster from first year highlighting a United Nations sanctioned day.
+      The aim for this project was to use a minimal colour palette in order to represent
+      a graphic based on a UN recognized sanctioned day. The International day of older persons
+      was chosen by myself for a fun and unique challenge.
+
+  - path: /images/kiddo.png
+    title: Kiddo
+      desc: |
+      This is a character that was used as part of the graphics made
+      for an imaginary event for a project in second year.
+      The graphics were used to promote a fictitious harvest type festival
+      that needed a more rustic appeal.
+
+
+  - path: /images/dino.jpg
+    title: Dino
+      desc: |
+      This is a life drawing study that was completed in pre-animation while touring the nature museum.
+      The aim for this project was to tour the museum by ourselves and sketch what we could through the exhibits
+      during pique hours.
+
+  - path: /images/skeleton.jpg
+    title: Skeleton
+      desc: |
+      This is a life drawing study that was completed in pre-animation while studying the human form.
+      The aim for this lesson was to learn the human form from the inside out in order to prepare ourselves
+      for more lively subjects.
+
+  - path: /images/character.jpg
+    title: Character
+      desc: |
+      This is a character composition that I had made in Pre-animation.
+      The focus was to make a relatable character that was unique but expressive,
+      hence a female representing character that has a wide range of emotions associated with her.
+      With an Androgynous base to her, this character is modern and relatable to the audiences
+      that would most likely view her.
+
+  - path: /images/grandmaman.jpg
+    title: Grandmaman
+      desc: |
+      This is a photo editing piece that I had created to experiment with what I had learned
+      in my graphic design program as well as brush up on the photoshop basics over the summer.
+      Using old family photos and giving them new life through editing to give a unique experience
+      and a fun exercise that I thoroughly enjoyed.
+
+
 ---
-
-  <title>Laniel Design · Welcome! </title>
-  <meta name="description" content="Welcome to my portfolio website! I specialise in illustration and printwork, and dabble in Photo editing as well.">
-  <meta name="geo.region" content="ca-on">
-  <meta name="geo.placename" content="Ottawa">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Laniel Design · Portfolio website">
-  <meta property="og:url" content="lanieldesign.art">
-  <meta property="og:locale" content="en-CA">
-  <link href="css/main.css" rel="stylesheet">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-
-  <ul class="skip-links">
-    <li><a href="#nav">Skip to navigation </a></li>
-    <li><a href="#main">Skip to main content</a></li>
-  </ul>
-
-  <ul class="grid gallery">
-    {% for image in page.images %}
-      {% if forloop.first %}
-        <li class="xs-1 s-1 m-1"><img src="{{ image_path }}" alt="{{ image.title}}"></li>
-      {% else %}
-        <li class="xs-1 s-1 m-1-4"><img src="{{ image_path }}" alt="{{ image.title}}"></li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-
-
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Laniel Design, Portfolio website",
-      "email": "laniel.kayleigh.design@gmail.com",
-      "url": "lanieldesign.art",
-      "description": "Home page for portfolio website",
-      "keywords": "graphic, design, website, illustration, print, printwork,",
-      "author": {
-        "type": "Person",
-        "@id": "#lanieldesign"
-      }
-    }
-  </script>

@@ -6,12 +6,40 @@
   <link href="/css/main.css" rel="stylesheet">
   <link rel="stylesheet" href="https://use.typekit.net/onl4ftf.css">
   <link rel="stylesheet" href="https://use.typekit.net/onl4ftf.css">
+    <title>Laniel Design · Welcome! </title>
+    <meta name="description" content="Welcome to my portfolio website! I specialise in illustration and printwork, and dabble in Photo editing as well.">
+    <meta name="geo.region" content="ca-on">
+    <meta name="geo.placename" content="Ottawa">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Laniel Design · Portfolio website">
+    <meta property="og:url" content="lanieldesign.art">
+    <meta property="og:locale" content="en-CA">
+    <link href="css/main.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
+  <ul class="skip-links">
+    <li><a href="#nav">Skip to navigation </a></li>
+    <li><a href="#main">Skip to main content</a></li>
+  </ul>
   {% pattern header/header %}
   {{content}}
   {% pattern secondary-nav/next-prev %}
   {% pattern footer/footer %}
-
+  <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Laniel Design, Portfolio website",
+        "email": "laniel.kayleigh.design@gmail.com",
+        "url": "lanieldesign.art",
+        "description": "Home page for portfolio website",
+        "keywords": "graphic, design, website, illustration, print, printwork,",
+        "author": {
+          "type": "Person",
+          "@id": "#lanieldesign"
+        }
+      }
+    </script>
 </body>
 </html>
