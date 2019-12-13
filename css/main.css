@@ -6,3 +6,11 @@
 {% include_relative type.css%}
 {% include_relative theme.css%}
 {%pattern_css%}
+
+html {
+  background-color: var(--color-primary-light)
+}
+
+ header {
+   background-color: var(--color-primary)
+ }
